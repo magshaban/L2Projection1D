@@ -1,12 +1,14 @@
-#This is the chapter one cod in the the FEM book of Larson.
-#this is educational project to get familiar with FEM implementaion and git.
+#This is the chapter one codes in the FEM book of Larson.
+#this is educational project to get myself familiar with FEM implementation and git.
 
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+
 # This function is to evaluate the mass matrix in 1D for X 
 def MassMat1D(x):
-    n= len(x) - 1 # numper of elemnts 
+    n= len(x) - 1 # number of elemnts 
     M = np.zeros((n+1,n+1)) #allocate n+1xn+1 zeros matrix for M
     
     for i in range(n):
@@ -18,22 +20,18 @@ def MassMat1D(x):
         
     return M      
 
-x = np.linspace(0,1,6)
-print('x= \n',x)
 
-print('M = \n',MassMat1D(x))
-
-# This function in the right handside of the equation.
+# This function f(x) which used int the numerical integration.
 def foo(y):
-     
-    z= y*np.sin(y)
-    return z
+     return y*np.sin(y)
+
+
 # print ('foo(x)= ',foo(x))
 
 # This function is to evaluate the Load vector b in 1D for X 
 def LoadVec1D(x):
-    n = len(x) - 1
-    b = np.zeros((n+1,1))
+    n = len(x) - 1          # number of elemnts 
+    b = np.zeros((n+1,1))   # allocate b matrix
     
     for i in range(n):
         h = x[i+1] - x[i]
@@ -43,14 +41,19 @@ def LoadVec1D(x):
     return b
 
 
-print('b= \n', LoadVec1D(x))
+x = np.linspace(0,1,6)
 
 M = MassMat1D(x)
-M_inverse = np.linalg.inv(M)
+inverse_M = np.linalg.inv(M)
 b = LoadVec1D(x)
 
-Pf = M_inverse@b 
-print('pf= \n' ,Pf)
+Pf = inverse_M@b 
 
+print('x= \n',x)
+print('b= \n', LoadVec1D(x))
+print('M = \n',MassMat1D(x))
+print('Pf= \n' ,Pf)
+
+plt.plot(x,foo(x))
 plt.plot(x,Pf)
 plt.show()
