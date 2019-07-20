@@ -1,0 +1,1802 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Menlo'; font-size:12pt; font-weight:400; font-style:normal;">
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">80</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/ch1.py', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">x= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.  0.2 0.4 0.6 0.8 1. ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">M = </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.06666667 0.03333333 0.         0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03333333 0.13333333 0.03333333 0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.03333333 0.13333333 0.03333333 0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.03333333 0.13333333 0.03333333 0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.03333333 0.13333333 0.03333333]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.         0.03333333 0.06666667]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">b= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.00794677]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03115347]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0677571 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.11477697]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0841471 ]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">pf= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[-0.01386314]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.02772629]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.1413612 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.34143294]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.52561995]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.9993965 ]]</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">81</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/ch1.py', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">x= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.  0.2 0.4 0.6 0.8 1. ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">M = </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.06666667 0.03333333 0.         0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03333333 0.13333333 0.03333333 0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.03333333 0.13333333 0.03333333 0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.03333333 0.13333333 0.03333333 0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.03333333 0.13333333 0.03333333]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.         0.03333333 0.06666667]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">b= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.00794677]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03115347]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0677571 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.11477697]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0841471 ]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">pf= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[-0.01386314]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.02772629]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.1413612 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.34143294]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.52561995]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.9993965 ]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-81-3426ef33dfcf&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/ch1.py', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">786</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">110</span>, in <span style=" color:#ff00ff;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(compile(f.read(), filename, 'exec'), namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/ch1.py&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">55</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    plt.plt(x,Pf)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">AttributeError:</span> module 'matplotlib.pyplot' has no attribute 'plt'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">82</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">82</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/ch1.py', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">x= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.  0.2 0.4 0.6 0.8 1. ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">M = </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.06666667 0.03333333 0.         0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03333333 0.13333333 0.03333333 0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.03333333 0.13333333 0.03333333 0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.03333333 0.13333333 0.03333333 0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.03333333 0.13333333 0.03333333]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.         0.03333333 0.06666667]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">b= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.00794677]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03115347]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0677571 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.11477697]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0841471 ]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">pf= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[-0.01386314]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.02772629]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.1413612 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.34143294]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.52561995]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.9993965 ]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-82-3426ef33dfcf&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/ch1.py', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">786</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">110</span>, in <span style=" color:#ff00ff;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(compile(f.read(), filename, 'exec'), namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/ch1.py&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">56</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    show()</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">NameError:</span> name 'show' is not defined</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAXcAAAD8CAYAAACMwORRAAAACXBIWXMAAAsS
+AAALEgHS3X78AAAAO3pUWHRTb2Z0d2FyZQAACJnLTSwpyMkvyclMUihLLSrO
+zM9TMNYz0DPWUcgoKSmw0tfPhSvQyy9K1wcApx4Q8i+ifZwAACAASURBVHic
+7d17WJRlwj/w73ASUUSOIgyI4ygKiIcGxVNJtqJmmGVGbZpLu9hmb23bq2mt
+Zq6WnfutlvtDfbV9XSXXE3iiPKQdFQkKARVUEGZEARFEzjNzv3+4spLoDDLD
+M4fv57q6uoa55fneyXy7uWee55EJIQSIiMimOEgdgIiITI/lTkRkg1juREQ2
+iOVORGSDWO5ERDaI5U5EZINY7kRENojlTkRkg1juREQ2yEmqA/v4+CAkJESq
+wxMRWaWioiJUVFQYHCdZuYeEhCAjI0OqwxMRWSWVSmXUOG7LEBHZIJY7EZEN
+YrkTEdkgljsRkQ0yWO4JCQnw8/NDREREm88LIfDSSy9BqVQiMjISmZmZJg9J
+RETtY7Dc58yZg7S0tDs+v3//fhQUFKCgoABJSUn44x//aNKARETUfgbL/f77
+74eXl9cdn09JScHs2bMhk8kQHR2NqqoqlJaWmjQkERG1T4f33DUaDYKCgloe
+y+VyaDSajn5bIiKbo9cLLN+Th6KKWrMfq8Pl3tYtWGUyWZtjk5KSoFKpoFKp
+UF5e3tFDExFZlX8ev4B13xXieOEVsx+rw+Uul8tRUlLS8litViMgIKDNsYmJ
+icjIyEBGRgZ8fX07emgiIqtRUlmHd/afxrj+PpipCjL8Bzqow+UeFxeHf/zj
+HxBC4NixY/Dw8EDv3r1NkY2IyCYIIbBox0nIALzz2OA77m6YksFryzz11FM4
+cuQIKioqIJfL8dZbb6G5uRkA8Pzzz2PKlCnYt28flEol3NzcsGHDBrOHJiKy
+Jl+cKMF3Zyvw10cjIPd065RjGiz3LVu23PV5mUyGTz/91GSBiIhsSWl1PVbs
+PYVohRd+OyK4047LM1SJiMxECIHXd5yEVi/w7uORcHAw/3bMTSx3IiIz2ZGp
+wddnyjE/NhR9vLt16rFZ7kREZlB2rQFv7c7FfX088ezokE4/PsudiMjEhBB4
+Y1cOGrV6vDcjEo6duB1zE8udiMjEdmeX4kDeZfz5NwPQz7e7JBlY7kREJnTl
+eiOWpuZiiNwDz43tK1kOljsRkQktSc3F9QYt3n9iCJwcpatYljsRkYmk5ZRi
+b3YpXpqgxIBe7pJmYbkTEZnA1dom/GVXLsIDemDuA/2kjmP4DFUiIjJs2Z48
+VNU14fOEKDhLuB1zk/QJiIis3KFTl7EzS4MXxvdDeICH1HEAsNyJiDqkur4Z
+r+88idBe7njxwf5Sx2nBbRkiog5YsTcP5TWNWDtbBRcny1kvW04SIiIr801+
+ObZmqJF4fz9EyntKHacVljsR0T243qjFoh0nofDthj89ZDnbMTdxW4aI6B6s
+3H8KF6vrse35UXB1dpQ6zm24ciciaqcfzlVg07FiJIzpi/v6eEkdp00sdyKi
+dqhr0mLh9pPo4+2G/54YKnWcO+K2DBFRO7z/5RkUV9YhOTEaXV0sbzvmJq7c
+iYiMlFFUiY0/FGH2qD6IVnhLHeeuWO5EREZoaNZhwbZsBHh0xWuTBkodxyBu
+yxARGeHjA/k4X1GLTc+NRLcull+dXLkTERnwc0kV1n57Hk+NCMLY/j5SxzEK
+y52I6C4atTrM/9cv6NXDFYumDJI6jtEs/3cLIiIJrTp0FgVl17FhThR6uDpL
+HcdoXLkTEd1BjqYaa46ew2PDAxEz0E/qOO3CciciakOTVo/527Lh1c0FS6aG
+SR2n3bgtQ0TUhr8fPYdTpdeQNOs+9HRzkTpOu3HlTkT0K6cvXcOqwwV4ZEgA
+Job7Sx3nnrDciYhuodXpMf9f2ejh6oy34sKljnPPjCr3tLQ0hIaGQqlUYuXK
+lbc9X1xcjJiYGAwbNgyRkZHYt2+fyYMSEXWGtd8W4qSmGm9NC4dXN+vbjrnJ
+YLnrdDrMmzcP+/fvR15eHrZs2YK8vLxWY5YvX46ZM2ciKysLycnJeOGFF8wW
+mIjIXM6WXcfHB/MxKdwfDw/uLXWcDjFY7unp6VAqlVAoFHBxcUF8fDxSUlJa
+jZHJZLh27RoAoLq6GgEBAeZJS0RkJjq9wIJtv8DNxRHLHg2HTCaTOlKHGPy0
+jEajQVBQUMtjuVyO48ePtxqzdOlSTJw4EatWrUJtbS0OHjxo+qRERGa04ftC
+ZBZX4eMnh8DP3VXqOB1mcOUuhLjta7/+P9qWLVswZ84cqNVq7Nu3D7NmzYJe
+r7/tzyUlJUGlUkGlUqG8vLwDsYmITKeoohYffHUGEwb64dGhgVLHMQmD5S6X
+y1FSUtLyWK1W37btsn79esycORMAMGrUKDQ0NKCiouK275WYmIiMjAxkZGTA
+19e3o9mJiDpMrxdYsD0bzo4OWDF9sNVvx9xksNyjoqJQUFCAwsJCNDU1ITk5
+GXFxca3GBAcH49ChQwCAU6dOoaGhgeVNRFZh0/ELSC+sxOKHw+DvYf3bMTcZ
+LHcnJyesXr0asbGxGDRoEGbOnInw8HAsWbIEqampAIAPP/wQa9euxZAhQ/DU
+U09h48aNNvN/PyKyXSWVdVi5/zTG9ffBEyq51HFMSiba2lTvBCqVChkZGVIc
+mogIQgjMWp+OrOKr+OrPDyCwZ1epIxnF2O7kGapEZJeST5Tgu7MVWDRlkNUU
+e3uw3InI7lysqseKvacwSuGNp0cESx3HLFjuRGRXhBB4fedJ6PQC7z4eCQcH
+23x/kOVORHZlR6YGR86UY8GkUAR7u0kdx2xY7kRkN8quNeCt3blQ9fHEs6NC
+pI5jVix3IrILQgi8sSsHjVo93pthu9sxN7Hcicgu7M4uxYG8y3h14gAofLtL
+HcfsWO5EZPMqrjfizZQcDAnqiefGKqSO0ylY7kRk895MzUVtow7vz4iEo41v
+x9zEcicim5aWU4q92aV4aYISA3q5Sx2n07DcichmXa1twl925SI8oAfmPtBP
+6jidyuDNOoiIrNWyPXmoqmvCPxJGwNnRvtay9jVbIrIbh05dxs4sDV6IUSIs
+oIfUcTody52IbE51fTNe33kSob3c8WKMUuo4kuC2DBHZnBV781BxvQlrZ6vg
+4mSfa1j7nDUR2axv8suxNUONxPsViJT3lDqOZFjuRGQzrjdqsWjHSfTz7YaX
+J/SXOo6kuC1DRDbjnX2ncLG6HtueHw1XZ0ep40iKK3cisgk/nKvAP48X47kx
+fXFfH0+p40iO5U5EVq+uSYuF208ixNsNr04MlTqOReC2DBFZvfe/PIPiyjp8
+kRiNri72vR1zE1fuRGTVMooqsfGHIjw7qg9GKryljmMxWO5EZLUamnVYsC0b
+gT27YsGkgVLHsSjcliEiq/XxgXycr6jFP38/Et26sM5uxZU7EVmlrOKrWPvt
+eTw1IghjlD5Sx7E4LHcisjqN2hvbMb16uGLRlEFSx7FI/D2GiKzOqkNnUVB2
+HRt+F4Uers5Sx7FIXLkTkVXJ0VRjzdFzeHy4HDGhflLHsVgsdyKyGk1aPf77
+X7/Au5sLlkwNkzqOReO2DBFZjTVHzuH0pRqsna2Chxu3Y+6GK3cisgqnL13D
+6q8LEDckAL8J6yV1HItnVLmnpaUhNDQUSqUSK1eubHPM1q1bERYWhvDwcDz9
+9NMmDUlE9k2r02P+v7LRw9UZS+PCpY5jFQxuy+h0OsybNw8HDhyAXC5HVFQU
+4uLiEBb2n/2ugoICvPPOO/j+++/h6emJsrIys4YmIvuS9O15nNRU49Onh8Or
+m4vUcayCwZV7eno6lEolFAoFXFxcEB8fj5SUlFZj1q5di3nz5sHT88ZlNv38
++A42EZnG2bIafHKwAJMj/PFwZG+p41gNg+Wu0WgQFBTU8lgul0Oj0bQak5+f
+j/z8fIwZMwbR0dFIS0tr83slJSVBpVJBpVKhvLy8g9GJyNbp9ALzt2XDzcUR
+y6ZFSB3HqhjclhFC3PY1mUzW6rFWq0VBQQGOHDkCtVqNcePGIScnBz17tr5/
+YWJiIhITEwEAKpWqI7mJyA5s+L4QWcVV+OTJofB17yJ1HKticOUul8tRUlLS
+8litViMgIOC2MdOmTYOzszP69u2L0NBQFBQUmD4tEdmNoopafPDVGTw0yA/T
+hgYY/gPUisFyj4qKQkFBAQoLC9HU1ITk5GTExcW1GvPoo4/i66+/BgBUVFQg
+Pz8fCoXCPImJyObp9QILtmfD2dEByx8dfNtuARlmsNydnJywevVqxMbGYtCg
+QZg5cybCw8OxZMkSpKamAgBiY2Ph7e2NsLAwxMTE4P3334e3Ny+aT0T3ZtPx
+C0gvrMTiqWHw93CVOo5Vkom2NtU7gUqlQkZGhhSHJiILVlJZh9hPvoEqxAuf
+/y6Kq/ZfMbY7eYYqEVkMIQQW7siGg0yGdx7jdkxHsNyJyGIknyjB92evYNGU
+gQjs2VXqOFaN5U5EFuFiVT1W7D2FUQpvPBUVLHUcq8dyJyLJCSHw+s6T0OkF
+3n08Eg4O3I7pKJY7EUlue6YGR86U47VJoQj2dpM6jk1guRORpMquNWDZ7lxE
+hXhi9qgQqePYDJY7EUlGCIE3duWgUavndoyJsdyJSDK7s0txIO8yXp04AArf
+7lLHsSm8zR4RdbpmnR6f/1CEjw/kY2hQTzw3lpcrMTWWOxF1qu8KKrB0dy7O
+ll1HTKgvVkwfDEdux5gcy52IOoX6ah2W7zmFtNxL6OPthvXPqjBhEO+Fai4s
+dyIyq4ZmHf5+9BzWHDkHB5kM82ND8dzYvnB1dpQ6mk1juRORWQgh8GXuZSzf
+mwf11Xo8HNkbb0wZhABeVqBTsNyJyOTOll3HW7tz8W1BBUJ7uWPzH0ZidD8f
+qWPZFZY7EZlMTUMzVh0+i//5rhBdXRzx5iNhmBXdB06O/NR1Z2O5E1GHCSGw
+M0uDd/afRsX1Rsy8LwjzJ4XCpzvveyoVljsRdUiOphpvpubipwtXMSSoJ9bN
+VmFIUE+pY9k9ljsR3ZOrtU344Ksz2JxeDC83F7w3IxIzhst5CQELwXInonbR
+6QU2pxfjw6/OoKZBizmjQ/CnhwbAo6uz1NHoFix3IjLaiaJKvJmSi7zSaxil
+8MbSuHCE+rtLHYvawHInIoMuX2vAO/tOYdfPFxHg4YpPnx6OKYP9eY9TC8Zy
+J6I7atLq8T/fF2LVoQI06wRejFHihZh+cHNhdVg6/g0RUZuOnCnDst15OF9R
+i4cG+WHx1DD08e4mdSwyEsudiFopvlKHv+7Nw4G8y+jr0w0bfheFmFA/qWNR
+O7HciQgAUN+kw5ojZ/H3b87DyUGG1yYNRMLYEHRx4gW+rBHLncjOCSGwP+cS
+Vuw9BU1VPaYNDcCiyYPg7+EqdTTqAJY7kR0ruFyDN1Nz8cO5Kxjo746tc0dh
+RF8vqWORCbDciezQtYZmfHKgAJ//WITuXZywbFo4nh4RzAt82RCWO5Ed0esF
+tmWq8V7aaVypbUJ8VDDmx4bCq5uL1NHIxFjuRHYiW12FJSm5+LmkCsODe2LD
+nBEYLPeQOhaZiVG/g6WlpSE0NBRKpRIrV66847ht27ZBJpMhIyPDZAGJqGOu
+XG/Ewu3ZmPbp91BfrceHTwzBtudHs9htnMGVu06nw7x583DgwAHI5XJERUUh
+Li4OYWFhrcbV1NTgb3/7G0aOHGm2sERkPK1Oj03HLuCjA/moa9Lh92P74qUJ
+/eHuygt82QODK/f09HQolUooFAq4uLggPj4eKSkpt41bvHgxFixYAFdXfnyK
+SGrHzl/B1FXfYenuPETKeyLtT+PwxsNhLHY7YrDcNRoNgoKCWh7L5XJoNJpW
+Y7KyslBSUoKpU6fe9XslJSVBpVJBpVKhvLz8HiMT0Z2UVtfjv7ZkIT7pGGoa
+tPj7M8Pxv8+NgNKPV260Nwa3ZYQQt33t1ivB6fV6vPLKK9i4caPBgyUmJiIx
+MREAoFKp2hGTiO6mUavDum8LsfrwWeiFwMsT+uP5B/qhqwvPLrVXBstdLpej
+pKSk5bFarUZAQEDL45qaGuTk5GD8+PEAgEuXLiEuLg6pqakscKJOcPj0ZSzb
+nYeiK3WIDe+FvzwchiAvN6ljkcQMlntUVBQKCgpQWFiIwMBAJCcnY/PmzS3P
+e3h4oKKiouXx+PHj8cEHH7DYicysqKIWy/bk4fDpMih8u+EfCSNw/wBfqWOR
+hTBY7k5OTli9ejViY2Oh0+mQkJCA8PBwLFmyBCqVCnFxcZ2Rk4j+ra5Ji9WH
+z2Ldt4VwdpTh9SkDMWd0X7g48exS+g+ZaGtTvROoVCp+Hp6oHYQQ2JNdirf3
+nUJpdQMeGxaIhZMHwq8HP6FmT4ztTp6hSmQFTl+6hqWpuTh2vhLhAT2w6qlh
+UIXwAl90Zyx3IgtWXdeMjw/m43+PXYC7qxNWTI9AfFQwHB1471K6O5Y7kQXS
+6wW2ZpTgvS/PoKquCb8d2QevThyAnm68wBcZh+VOZGGyiq9iaWouflFXIyrE
+E0vjRiA8gNeBofZhuRNZiPKaRryXdhr/+kkNP/cu+OTJoZg2NKDVSYNExmK5
+E0lMiBtbMCv2nkJ9sw5zH1Dgvx7sj+5d+PKke8efHiIJFVXUYtGOk/jx/BWM
+6OuFt6cPhtKvu9SxyAaw3IkkoNXpse67Qnx8IB8ujg54e/pgxEcFwYGfgiET
+YbkTdbIcTTVe256N3IvXEBveC8umRaAXT0QiE2O5E3WS+iYdPjmYj3XfFcKr
+mwv+/sxwTIroLXUsslEsd6JO8MPZCizaeRIXrtThqRFBWDh5EDy68sYZZD4s
+dyIzqqprwtv7TmFrhhoh3m7Y/IeRGN3PR+pYZAdY7kRmIITAvpOX8GZqLq7W
+NeGP4/vh5Qn94erMm2dQ52C5E5lYaXU9Fu/KxcFTlzE40AOfJ0TxDFPqdCx3
+IhPR6wX+mV6Md/efhlavxxtTBuF3Y0Lg5MjrrFPnY7kTmcDZsutYtCMbJ4qu
+YqzSB29PH4xgb97qjqTDcifqgCatHv//6DmsOnwWXV0c8f6MSMy4T87rwZDk
+WO5E9yir+CoWbj+JM5drMDWyN958JBy+7l2kjkUEgOVO1G61jVp88NUZbPyh
+CP49XLFutgoPhfWSOhZRKyx3onY4cqYMb+zMgaaqHrNH9cH82FC4u/JkJLI8
+LHciI1TWNmHZ7lzs+vkilH7dse35UbyHKVk0ljvRXQghkPLzRSzbk4eahma8
+NKE/5sX0QxcnnoxElo3lTnQH6qt1eGNnDo7ml2NoUE+8+3gkQv3dpY5FZBSW
+O9Gv6PQCn/9QhA++OgMAWPpIGGaNCoEjr7VOVoTlTnSLM5dq8Nr2bPxcUoXx
+ob5Y/mgE5J48GYmsD8udCEBDsw6ffX0Wnx05hx5dnfH/4ocibghvTk3Wi+VO
+du9EUSUWbs/GufJaPDYsEH+ZGgavbi5SxyLqEJY72a2ahma8m3Yam44VI7Bn
+V3yeMAIPDPCVOhaRSbDcyS4dyLuMxbtycLmmAQlj+uLViQPQrQtfDmQ7+NNM
+dqWspgFvpeZh78lSDPR3x5pnhmNYsKfUsYhMzqgLTaelpSE0NBRKpRIrV668
+7fmPPvoIYWFhiIyMxIQJE3DhwgWTByXqCCEEtp4owUMfHsWBvMv474kDkPri
+WBY72SyD5a7T6TBv3jzs378feXl52LJlC/Ly8lqNGTZsGDIyMpCdnY0ZM2Zg
+wYIFZgtM1F4XrtTit+uOY8H2bAz074F9L4/Diw/2h4sTb6JBtsvgT3d6ejqU
+SiUUCgVcXFwQHx+PlJSUVmNiYmLg5nbjs8DR0dFQq9XmSUvUDlrdjWutx37y
+DbLV1Vj+aASSE6Oh9OsudTQiszO4567RaBAUFNTyWC6X4/jx43ccv379ekye
+PLnN55KSkpCUlAQAKC8vb29WIqPlaKrx2vZs5F68ht+E9cJfp0XA38NV6lhE
+ncZguQshbvvanU7s2LRpEzIyMnD06NE2n09MTERiYiIAQKVStScnkVEamnX4
++GA+1n1bCE83F3z22+GYHOHPk5HI7hgsd7lcjpKSkpbHarUaAQEBt407ePAg
+VqxYgaNHj6JLF96NhjrfD+cqsGjHSVy4UocnVUF4fcogeLjxWutknwyWe1RU
+FAoKClBYWIjAwEAkJydj8+bNrcZkZWVh7ty5SEtLg5+fn9nCErWluq4Zb+87
+hS8yStDH2w2bfz8So5U+UscikpTBcndycsLq1asRGxsLnU6HhIQEhIeHY8mS
+JVCpVIiLi8P8+fNx/fp1PPHEEwCA4OBgpKammj082TchBPbnXMKSlFxcrWvC
+3AcU+NOEAejqwmutE8lEW5vqnUClUiEjI0OKQ5MNuFTdgMUpOTiQdxnhAT3w
+7uORiAj0kDoWkdkZ2508Q5Wsil4vsDm9GO/uP40mnR6LJg/Ec2P7wsmRn1kn
+uhXLnazGufLrWLT9JNKLKjG6nzfenj4YIT7dpI5FZJFY7mTxmrR6JH1zDn87
+dBauzg547/FIPKGS8+ONRHfBcieL9nNJFRZuz8bpSzV4eHBvvBkXBj93noxE
+ZAjLnSxSbaMWHx3Ix4bvC+Hr3gVJs+7DxHB/qWMRWQ2WO1kMvV4gvagSOzM1
+2HeyFDWNWjwTHYwFkwaihytPRiJqD5Y7Se5c+XXszNRgZ5YGmqp6uLk4YlKE
+P56J7oPhvCQv0T1huZMkKmubsPuXi9iRqcYv6mo4yIAxSh/Mjw3FxPBecHPh
+jyZRR/AVRJ2moVmHQ6fKsDNLjSNnyqHVCwzq3QNvTBmEaUMD4NeDb5QSmQrL
+ncxKrxfIuHAVO7PU2JNdipoGLfzcuyBhbF9MHxaIQb17SB2RyCax3Mkszpdf
+x86sG/vo6qv16OrsiMkR/pg+PBCj+/nA0YGfUScyJ5Y7mUxlbRP2ZF/EjkwN
+fi6patlH//NvBiA23B/duvDHjaiz8NVGHdKo1eHwqTLsyNLg69Nl0OoFBvq7
+4/UpAzFtaCB6cR+dSBIsd2o3IW7so+/I1GBv9kVca9DC170LfjcmBNOHyREW
+wH10Iqmx3MloRRW12JGlwa4sDYor69DV2RGx4b0wfbgcY/p588qMRBaE5U53
+dbW2CXtOlmJHphpZxVWQyYAx/Xzw8oT+iI3wR3fuoxNZJL4y6TaNWh2+Pl2G
+HZkafH2mDM06gdBe7lg4eSCmDQ1Ab4+uUkckIgNY7gTgxj56ZvGNffQ92aWo
+rm+GT/cumD0qBI8ND0RY7x68xC6RFWG527kLV2qxI1ODXT9rcOFKHVydHRAb
+7o/pwwIxVunDfXQiK8Vyt0NVdU3Yk12KnVka/HThKmQyYJTCGy/GKDF5cG/u
+oxPZAL6K7USTVo+vz5RhZ6YGh0+XoUmnR3+/7nht0o199ICe3EcnsiUsdxsm
+hEBWSRV2ZN64rktVXTN8urvgmeg+eGx4IMIDuI9OZKtY7jao+Eoddmbd2Ecv
+rKhFFycHTAz3x2PDAzGO++hEdoHlbiOq65qx92QpdmapcaLoKoAb++h/HN8P
+kyP84c47GRHZFZa7FWvS6nE0vxw7MtU4dOrGPrrSrzvmx4bi0WGBCOQ+OpHd
+YrlbGSEEfi6pws4sDXb/chFX65rh3c0Fv40OxmPD5IgI5D46EbHcrUZJZR12
+/fv66Of/vY/+m7BeN/bR+/vCmfvoRHQLlrsFqa5rRnFlHS5U1qK4sg4llXUo
+/vc/JZX1AICRfb0w9wEFJg/ujR7cRyeiO2C5d6JmnR6lVQ0t5d2qwK/U4VqD
+ttV4724uCPJyw7AgTzw9og8eGdIbck83idITkTVhuZtYdV1z2+VdWYeLVQ3Q
+6UXLWBdHB8g9uyLIyw3Dgz0R7OWGIC+3ln/zTFEiuldGtUdaWhpefvll6HQ6
+/P73v8fChQtbPd/Y2IjZs2fjp59+gre3N7744guEhISYI6/kmnV6XKyqbyls
+Y1bfwd43yvvRof8p72AvN/Tq4cp7iRKRWRgsd51Oh3nz5uHAgQOQy+WIiopC
+XFwcwsLCWsasX78enp6eOHv2LJKTk/Haa6/hiy++MGtwc2r36turK4K5+iYi
+C2KwedLT06FUKqFQKAAA8fHxSElJaVXuKSkpWLp0KQBgxowZePHFFyGEsNiP
+5LV39e3T3aVl6+TXq2//Hq5w4OqbiCyMwXLXaDQICgpqeSyXy3H8+PE7jnFy
+coKHhweuXLkCHx+fVuOSkpKQlJQEACgvL+9w+Lupqmtqu7zbufoO9nJDN66+
+icjKGGwtIcRtX/v1ityYMQCQmJiIxMREAIBKpTI6ZFtMsfru4+WGYG839HLn
+6puIbIvBcpfL5SgpKWl5rFarERAQ0OYYuVwOrVaL6upqeHl5mT4tgC9OFGP1
+12fvuvq+L9jzPytvbzcEeXL1TUT2xWDjRUVFoaCgAIWFhQgMDERycjI2b97c
+akxcXBw+//xzjBo1Ctu2bcODDz5otv12725dMDzYE9Nv3fvm6puIqBWD5e7k
+5ITVq1cjNjYWOp0OCQkJCA8Px5IlS6BSqRAXF4fnnnsOs2bNglKphJeXF5KT
+k80W+KGwXngorJfZvj8RkS2QibY2zDuBSqVCRkaGFIcmIrJaxnYnrzZFRGSD
+WO5ERDaI5U5EZINY7kRENojlTkRkg1juREQ2iOVORGSDJPucu4+Pzz1f8728
+vBy+vr6mDWThOGf7wDnbh47MuaioCBUVFQbHSVbuHWGPJ0BxzvaBc7YPnTFn
+bssQEdkgljsRkQ1yXHrzFkpW5r777pM6QqfjnO0D52wfzD1nq9xzJyKiu+O2
+DBGRDbLock9LS0NoaCiUSiVWrlx52/ONjY148sknoVQqMXLkSBQVFXV+SBMz
+NOePPvoIYWFhiIyMxIQJE3DhwgUJUpqWoTnftG3bNshkMpv4ZIUxc966dSvC
+wsIQHh6Op59+upMTmp6hORcXFyMmJgbDhg1DZGQk9u3bJ0FK00lISICfnx8i
+IiLafF4IgZdeeglKpRKRkZHIzMw0bQBhobRarVAoFOLcuXOisbFRREZGitzc
+3FZjPv30UzF37lwhhBBbtmwRM2fOlCKqyRgz58OHD4va2lohhBCfffaZXcxZ
+sOu4UQAAA/RJREFUCCGuXbsmxo0bJ0aOHClOnDghQVLTMWbO+fn5YujQoaKy
+slIIIcTly5eliGoyxsz5D3/4g/jss8+EEELk5uaKPn36SJDUdI4ePSp++ukn
+ER4e3ubze/fuFZMmTRJ6vV78+OOPYsSIESY9vsWu3NPT06FUKqFQKODi4oL4
++HikpKS0GpOSkoJnn30WADBjxgwcOnSozZt1Wwtj5hwTEwM3NzcAQHR0NNRq
+tRRRTcaYOQPA4sWLsWDBAri6ukqQ0rSMmfPatWsxb948eHp6AgD8/PykiGoy
+xsxZJpPh2rVrAIDq6urb7tVsbe6///673ks6JSUFs2fPhkwmQ3R0NKqqqlBa
+Wmqy41tsuWs0GgQFBbU8lsvl0Gg0dxzj5OQEDw8PXLlypVNzmpIxc77V+vXr
+MXny5M6IZjbGzDkrKwslJSWYOnVqZ8czC2PmnJ+fj/z8fIwZMwbR0dFIS0vr
+7JgmZcycly5dik2bNkEul2PKlClYtWpVZ8fsVO19vbeXwXuoSqWtFfivb7pt
+zBhr0p75bNq0CRkZGTh69Ki5Y5mVoTnr9Xq88sor2LhxYyemMi9j/p61Wi0K
+Cgpw5MgRqNVqjBs3Djk5OejZs2dnxTQpY+a8ZcsWzJkzB6+++ip+/PFHzJo1
+Czk5OXBwsNg1aIeYu78s9r+aXC5HSUlJy2O1Wn3br2m3jtFqtaiurr7rr0GW
+zpg5A8DBgwexYsUKpKamokuXLp0Z0eQMzbmmpgY5OTkYP348QkJCcOzYMcTF
+xVn1m6rG/mxPmzYNzs7O6Nu3L0JDQ1FQUNDZUU3GmDmvX78eM2fOBACMGjUK
+DQ0NRl1DxVoZ+3q/ZybdwTeh5uZm0bdvX3H+/PmWN2BycnJajVm9enWrN1Sf
+eOIJKaKajDFzzszMFAqFQuTn50uU0rSMmfOtHnjgAat/Q9WYOe/fv1/Mnj1b
+CCFEeXm5kMvloqKiQoq4JmHMnCdNmiQ2bNgghBAiLy9P9O7dW+j1egnSmk5h
+YeEd31Dds2dPqzdUo6KiTHpsiy13IW68m9y/f3+hUCjE8uXLhRBCLF68WKSk
+pAghhKivrxczZswQ/fr1E1FRUeLcuXNSxjUJQ3OeMGGC8PPzE0OGDBFDhgwR
+jzzyiJRxTcLQnG9lC+UuhOE56/V68corr4hBgwaJiIgIsWXLFinjmoShOefm
+5orRo0eLyMhIMWTIEPHll19KGbfD4uPjhb+/v3BychKBgYFi3bp1Ys2aNWLN
+mjVCiBt/xy+88IJQKBQiIiLC5D/XPEOViMgGWeyeOxER3TuWOxGRDWK5ExHZ
+IJY7EZENYrkTEdkgljsRkQ1iuRMR2SCWOxGRDfo/zHdanjCAXhMAAAAASUVO
+RK5CYII=
+" /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">83</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">83</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/ch1.py', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">x= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.  0.2 0.4 0.6 0.8 1. ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">M = </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.06666667 0.03333333 0.         0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03333333 0.13333333 0.03333333 0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.03333333 0.13333333 0.03333333 0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.03333333 0.13333333 0.03333333 0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.03333333 0.13333333 0.03333333]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.         0.03333333 0.06666667]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">b= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.00794677]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03115347]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0677571 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.11477697]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0841471 ]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">pf= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[-0.01386314]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.02772629]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.1413612 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.34143294]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.52561995]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.9993965 ]]</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="data:image/png;base64,
+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
+RK5CYII=
+" /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">84</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/ch1.py', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">x= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.  0.2 0.4 0.6 0.8 1. ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">M = </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.06666667 0.03333333 0.         0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03333333 0.13333333 0.03333333 0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.03333333 0.13333333 0.03333333 0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.03333333 0.13333333 0.03333333 0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.03333333 0.13333333 0.03333333]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.         0.03333333 0.06666667]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">b= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.00794677]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03115347]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0677571 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.11477697]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0841471 ]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">pf= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[-0.01386314]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.02772629]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.1413612 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.34143294]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.52561995]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.9993965 ]]</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="data:image/png;base64,
+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
+AABJRU5ErkJggg==
+" /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">85</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/ch1.py', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">x= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.  0.2 0.4 0.6 0.8 1. ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">M = </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.06666667 0.03333333 0.         0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03333333 0.13333333 0.03333333 0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.03333333 0.13333333 0.03333333 0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.03333333 0.13333333 0.03333333 0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.03333333 0.13333333 0.03333333]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.         0.03333333 0.06666667]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">b= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.00794677]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03115347]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0677571 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.11477697]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0841471 ]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">pf= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[-0.01386314]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.02772629]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.1413612 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.34143294]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.52561995]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.9993965 ]]</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="data:image/png;base64,
+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
+RK5CYII=
+" /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">86</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/ch1.py', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">x= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.  0.2 0.4 0.6 0.8 1. ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">M = </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.06666667 0.03333333 0.         0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03333333 0.13333333 0.03333333 0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.03333333 0.13333333 0.03333333 0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.03333333 0.13333333 0.03333333 0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.03333333 0.13333333 0.03333333]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.         0.03333333 0.06666667]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">b= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.00794677]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03115347]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0677571 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.11477697]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0841471 ]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">pf= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[-0.01386314]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.02772629]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.1413612 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.34143294]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.52561995]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.9993965 ]]</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="data:image/png;base64,
+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
+RK5CYII=
+" /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">87</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-87-d33c497b6b72&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">786</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">110</span>, in <span style=" color:#ff00ff;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(compile(f.read(), filename, 'exec'), namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span>, line <span style=" color:#00ff00;">31</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    print('b= ', LoadVec1D(x,foo(x)))</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">25</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">LoadVec1D</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    b[i] += f([x[i]])*h/2</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">TypeError:</span> 'numpy.ndarray' object is not callable</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">88</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">88</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/IPython/core/interactiveshell.py&quot;</span>, line <span style=" color:#00ff00;">3296</span>, in <span style=" color:#ff00ff;">run_code</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(code_obj, self.user_global_ns, self.user_ns)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-88-d33c497b6b72&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">786</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">110</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    exec(compile(f.read(), filename, 'exec'), namespace)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">31</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    print('b= ', LoadVec1D(x,foo)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">                                 ^</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">SyntaxError:</span> unexpected EOF while parsing</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">89</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">89</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/IPython/core/interactiveshell.py&quot;</span>, line <span style=" color:#00ff00;">3296</span>, in <span style=" color:#ff00ff;">run_code</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(code_obj, self.user_global_ns, self.user_ns)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-89-d33c497b6b72&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">786</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">110</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    exec(compile(f.read(), filename, 'exec'), namespace)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">31</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    print('b= ', LoadVec1D(x,foo)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">                                 ^</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">SyntaxError:</span> unexpected EOF while parsing</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">90</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">90</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/IPython/core/interactiveshell.py&quot;</span>, line <span style=" color:#00ff00;">3296</span>, in <span style=" color:#ff00ff;">run_code</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(code_obj, self.user_global_ns, self.user_ns)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-90-d33c497b6b72&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">786</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">110</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    exec(compile(f.read(), filename, 'exec'), namespace)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">31</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    print('b= ', LoadVec1D(x,foo)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">                                 ^</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">SyntaxError:</span> unexpected EOF while parsing</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">91</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">91</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/IPython/core/interactiveshell.py&quot;</span>, line <span style=" color:#00ff00;">3296</span>, in <span style=" color:#ff00ff;">run_code</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(code_obj, self.user_global_ns, self.user_ns)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-91-d33c497b6b72&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">786</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">110</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    exec(compile(f.read(), filename, 'exec'), namespace)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">19</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    def LoadVec1D(x, foo()):</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">                        ^</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">SyntaxError:</span> invalid syntax</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">92</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">92</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/IPython/core/interactiveshell.py&quot;</span>, line <span style=" color:#00ff00;">3296</span>, in <span style=" color:#ff00ff;">run_code</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(code_obj, self.user_global_ns, self.user_ns)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-92-d33c497b6b72&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">786</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">110</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    exec(compile(f.read(), filename, 'exec'), namespace)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">31</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    print('b= ', LoadVec1D(x,foo)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">                                 ^</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">SyntaxError:</span> unexpected EOF while parsing</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">93</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">93</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/IPython/core/interactiveshell.py&quot;</span>, line <span style=" color:#00ff00;">3296</span>, in <span style=" color:#ff00ff;">run_code</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(code_obj, self.user_global_ns, self.user_ns)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-93-d33c497b6b72&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">786</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">110</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    exec(compile(f.read(), filename, 'exec'), namespace)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">19</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    def LoadVec1D(x, foo()):</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">                        ^</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">SyntaxError:</span> invalid syntax</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">94</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">94</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/IPython/core/interactiveshell.py&quot;</span>, line <span style=" color:#00ff00;">3296</span>, in <span style=" color:#ff00ff;">run_code</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(code_obj, self.user_global_ns, self.user_ns)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-94-d33c497b6b72&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">786</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">110</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    exec(compile(f.read(), filename, 'exec'), namespace)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">31</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    print('b= ', LoadVec1D(x,foo)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">                                 ^</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">SyntaxError:</span> unexpected EOF while parsing</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">95</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">95</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-95-d33c497b6b72&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">786</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">110</span>, in <span style=" color:#ff00ff;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(compile(f.read(), filename, 'exec'), namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">31</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    print('b= ', LoadVec1D(x,foo()))</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">TypeError:</span> foo() missing 1 required positional argument: 'y'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">96</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">96</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-96-d33c497b6b72&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">786</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">110</span>, in <span style=" color:#ff00ff;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(compile(f.read(), filename, 'exec'), namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span>, line <span style=" color:#00ff00;">31</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    print('b= ', LoadVec1D(x,foo(x)))</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">25</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">LoadVec1D</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    b[i] += foo([x[i]])*h/2</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">TypeError:</span> 'numpy.ndarray' object is not callable</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">97</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">97</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-97-d33c497b6b72&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test', wdir='/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">786</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/anaconda3/lib/python3.7/site-packages/spyder_kernels/customize/spydercustomize.py&quot;</span>, line <span style=" color:#00ff00;">110</span>, in <span style=" color:#ff00ff;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(compile(f.read(), filename, 'exec'), namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span>, line <span style=" color:#00ff00;">31</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    print('b= ', LoadVec1D(x,foo(x)))</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;/Users/maged/Documents/pyprojects/FEMLarsonBook/Ch1/test&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">25</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">LoadVec1D</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    b[i] += foo([x[i]])*h/2</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">TypeError:</span> 'numpy.ndarray' object is not callable</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">98</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">98</span><span style=" color:#000080;">]:</span> runfile('/Users/maged/Documents/GitHub/L2Projection1D/L2Project1D.py', wdir='/Users/maged/Documents/GitHub/L2Projection1D')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">x= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.  0.2 0.4 0.6 0.8 1. ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">M = </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.06666667 0.03333333 0.         0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03333333 0.13333333 0.03333333 0.         0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.03333333 0.13333333 0.03333333 0.         0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.03333333 0.13333333 0.03333333 0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.03333333 0.13333333 0.03333333]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.         0.         0.         0.         0.03333333 0.06666667]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">b= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[0.        ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.00794677]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.03115347]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0677571 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.11477697]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [0.0841471 ]]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">pf= </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [[-0.01386314]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.02772629]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.1413612 ]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.34143294]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.52561995]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> [ 0.9993965 ]]</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="data:image/png;base64,
+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
+RK5CYII=
+" /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">99</span><span style=" color:#000080;">]:</span> </p></body></html>
