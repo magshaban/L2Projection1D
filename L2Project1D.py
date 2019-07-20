@@ -1,4 +1,3 @@
-#Maged Shaban
 #This is the chapter one cod in the the FEM book of Larson.
 #this is educational project to get familiar with FEM implementaion and git.
 
