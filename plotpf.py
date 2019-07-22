@@ -5,7 +5,6 @@ from funcx import *
 
 def plotall(x,Pf):
     
-    plt.figure()
 
     plt.grid()
     plt.plot(x,foo(x),'r')
@@ -21,6 +20,8 @@ def plotall(x,Pf):
     plt.grid()
     plt.show()
     
+       plt.figure()
+ 
     plt.grid() 
     plt.plot(x,foo(x),'--r')
     plt.plot(x,Pf,'b')
