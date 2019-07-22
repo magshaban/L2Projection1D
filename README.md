@@ -7,11 +7,14 @@ The following result for 15 elemnts (16 nodes) in the domain [-1,1]
 ![result](/result.png)
 
 Where the linear shape functions is:
-![result1](/linshapefunc.png)
+![result1](/linshapefuc.png)
 
 f(x)= cos(x)/ x
+
 Note: you can shange the function from 'funcx.py' file.
+
 ![result2](/fx.png)
 
 Pf(x):
+
 ![result3](/pfx.png)
