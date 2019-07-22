@@ -1,7 +1,7 @@
 # L2 Projection 
 
 This is  a Pyhon script to evaluate L2 projection Pf(x) for a given function f(x) in 1D.<br />
-The main file is <L2Projection.py> <br />
+The main file is <L2Projection1D.py> <br />
 
 The following results for 15 elemnts (16 nodes) in the domain [-1,1]. <br />
 ![result](/result.png)
