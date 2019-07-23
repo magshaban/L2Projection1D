@@ -9,6 +9,9 @@ The following results for 15 elemnts (16 nodes) in the domain [-1,1]. <br />
 Where the linear shape functions is:<br />
 ![result1](/linshapefuc.png)
 <br />
+which gives the mass matrix: <br />
+![result55](/massmat.png)
+<br />
 f(x)= cos(x)/ x
 <br />
 Note: you can shange the function from 'funcx.py' file.<br />
