@@ -19,3 +19,7 @@ Note: you can shange the function from 'funcx.py' file.<br />
 
 Pf(x):<br />
 ![result3](/pfx.png)
+
+# Author:
+ Maged Shaban <br />
+ magshaban[at]gmail.com <br />
