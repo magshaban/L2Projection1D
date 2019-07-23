@@ -1,5 +1,5 @@
-#This is the chapter one codes in the FEM book of Larson.
-#this is educational project to get myself familiar with FEM implementation and git.
+# This is the main file.
+# this code can be used to find the L2 projection of a given function in 1D.
 
 import numpy as np
 
@@ -20,4 +20,4 @@ print('b= \n', LoadVec1D(x))
 print('M = \n',MassMat1D(x))
 print('Pf= \n' ,Pf)
 
-plotall(x,Pf)
+plotall(x,Pf,M)

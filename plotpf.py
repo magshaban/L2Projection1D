@@ -5,7 +5,7 @@ from funcx import *
 from LinShapeFun1D import *
 
 
-def plotall(x,Pf):
+def plotall(x,Pf,M):
     
     # To plot the basis function.
     for i in range(len(x)):
@@ -17,6 +17,12 @@ def plotall(x,Pf):
     plt.grid()
     plt.show()
 
+    fig, (ax1, ax2) = plt.subplots(1,2)
+    fig.suptitle('The Mass Matrix')
+    ax1.matshow(M)
+    ax2.spy(M)
+    plt.show()
+    
     plt.grid()
     plt.plot(x,foo(x),'r')
     plt.xlabel('x')
@@ -31,6 +37,7 @@ def plotall(x,Pf):
     plt.grid()
     plt.show()
         
+       
     plt.grid() 
     plt.plot(x,foo(x),'--r')
     plt.plot(x,Pf,'b')
