@@ -7,7 +7,7 @@ from MassMatrix import *
 from loadvecx import * 
 from plotpf import *
 
-x = np.linspace(-1,1,16)  # the vector x
+x = np.linspace(-1,1,32)  # the vector x
 
 M = MassMat1D(x)
 inverse_M = np.linalg.inv(M) #the inverse of the Matrix M 

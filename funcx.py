@@ -4,6 +4,6 @@
 import numpy as np
 
 def foo(y):
-     return np.cos(y)/ y
+     return np.cos(y)
      #return y*np.sin(y)
      
